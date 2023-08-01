@@ -7,9 +7,9 @@ class Men
 		 age =20;
 		name = "hari";
 	}
-	public Men(int a,String n) {
-		age =a;
-	    name=n;
+	public Men(int age,String name) {
+		this.age =age;
+	    this.name=name;
 	}
 
 	public int getAge() {

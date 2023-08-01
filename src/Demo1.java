@@ -5,7 +5,7 @@ public class Demo1 {
 		StringBuffer sb = new StringBuffer("Navin");
 		sb.append("reddy");
 		System.out.println(sb);
-		sb.deleteCharAt((2));
+		sb.deleteCharAt(2);
 		System.out.println(sb);
 	}
 
