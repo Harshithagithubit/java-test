@@ -16,7 +16,7 @@ class Bike extends Vehicle{
 	}
 }
 
-public class Methodoverriding {
+public class MethodOverriding {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
