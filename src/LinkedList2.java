@@ -3,47 +3,25 @@ public class LinkedList2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedList<String>names=new LinkedList<String>();
-		LinkedList<String>names1=new LinkedList<String>();
-		names.add("pree");
-		names.add("shy");
-		names.add(2,"ro");
-		names.addFirst("mini");
-		names.add("chn");
-		names.add("shy");
-		names.addLast("ro");
-		names.remove(0);
-		names.removeFirstOccurrence("shy");
-		names.removeLastOccurrence("ro");
-		names1.add("nik");
-		names1.add("poo");
-		names1.add("k3g");
-		names1.add("pusp");
-		names1.removeFirst();
-		names1.removeLast();
-		System.out.println(names1.size());
-
-		//names.addAll(1,names1);//
-		//System.out.println(names);//
-		Iterator i=names.descendingIterator();  
-        while(i.hasNext())  
-        {  
-            System.out.println(i.next());  
-        }  
-        System.out.println(" ");
-		  
-		Iterator<String> itr=names.iterator();  
-		  while(itr.hasNext()){  
-		   System.out.println(itr.next());  
-	}
-		  names.addAll(1,names1);
-			System.out.println(names);
-			System.out.println(names.size());
-
-			
-			
-		names.clear();
-		System.out.println(names);
+		
+		LinkedList<String>a1=new LinkedList<>();
+		a1.add("hi");
+		a1.add(1,"hello");
+		a1.addFirst("sree");
+		a1.add("nano");
+		a1.add("hello");
+		a1.add("hi");
+		a1.addLast("sravs");
+		a1.removeFirst();
+		a1.removeLast();
+		a1.removeFirstOccurrence("hello");
+		a1.removeLastOccurrence("hi");
+	
+		System.out.println(a1);
+       System.out.println(a1.size());
+		
+		a1.clear();
+		System.out.println(a1);
 		
 		 
 		  
