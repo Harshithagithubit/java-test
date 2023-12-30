@@ -1,0 +1,15 @@
+package com.java;
+
+public class Test7 {
+
+	public static void main(String[] args) {
+	 int x=4;
+	 int y=7;
+	 if(x>y) {
+		 System.out.println(x);
+	 }
+	 else {
+		 System.out.println(y); 
+	 }
+	}
+}
