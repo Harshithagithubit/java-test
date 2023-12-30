@@ -19,8 +19,6 @@ public class LinkedList2 {
 	
 		System.out.println(a1);
        System.out.println(a1.size());
-		
-		a1.clear();
 		System.out.println(a1);
 		
 		 

@@ -9,14 +9,13 @@ public class ArrayList1 {
 		arr2.add(1,"kanna");
 		arr2.add("null");
 		arr2.set(0,"sai");
-		System.out.println(arr2);
+		System.out.println(arr2.get(1));
+		Collections.synchronizedList(arr2);
 		Collections.sort(arr2);
 		for(String names:arr2) {
 			System.out.println(names);
 		}
-		for(int i=0;i<5;i++) {
-			arr1.add(i);
-			}
+		
 		System.out.println(arr1);
 	
 

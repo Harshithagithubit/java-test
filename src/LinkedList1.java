@@ -6,18 +6,24 @@ public class LinkedList1 {
 		ArrayList<String>naam=new ArrayList<>();
 		naam.add("sisi");
 		naam.add("bebo");
-		LinkedList<String>names=new LinkedList<>();
-		names.add("sari");
-		names.add("gama");
-		names.add("pada");
-		names.add(3,"nisa");
-		names.add("lulu");
+	     LinkedList<String>names=new LinkedList<>();
+		names.add("sari"); //2
+		names.add("gama"); //3
+		names.addFirst("pada");//1
+		names.add(3,"nisa"); //4=hari
+		names.addLast("lulu"); //5
 		names.set(4,"hari");
 		names.remove("gama");
-		names.remove(1);
+		//names.remove(1);//
+		names.removeFirst();
+		names.removeLast();
 		names.addAll(0,naam);
-		System.out.println(names);
+		System.out.println(names.contains(1));
+		System.out.println(names.indexOf("sari"));
 		System.out.println(names.get(2));
+		System.out.println(names.getFirst());
+		System.out.println(names.getLast());
+		
 		names.removeAll(naam);
 		
 		System.out.println(names);
